@@ -1,0 +1,1050 @@
+---------------------------------------------------------------
+[ 2017-11-07T21:02:47+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] 127.0.0.199/ [运行时间：0.146669s][吞吐率：6.82req/s] [内存消耗：3,004.10kb] [文件加载：42]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codeshow\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:02:50+08:00 ] 127.0.0.199 127.0.0.1 GET /amdin
+[ info ] 127.0.0.199/amdin [运行时间：0.063377s][吞吐率：15.78req/s] [内存消耗：2,568.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'amdin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:02:53+08:00 ] 127.0.0.199 127.0.0.1 GET /admin
+[ info ] 127.0.0.199/admin [运行时间：0.094275s][吞吐率：10.61req/s] [内存消耗：3,457.42kb] [文件加载：52]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin/view/\dispatch_jump.tpl [ array (
+  0 => 'set_lang',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:02:57+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/login/index
+[ info ] 127.0.0.199/admin/login/index [运行时间：0.132990s][吞吐率：7.52req/s] [内存消耗：3,454.96kb] [文件加载：51]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\codeshow\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\login\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:02:57+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha
+[ info ] 127.0.0.199/captcha [运行时间：0.050592s][吞吐率：19.77req/s] [内存消耗：2,591.50kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codeshow\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:03:01+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/login/index
+[ info ] 127.0.0.199/admin/login/index [运行时间：0.083371s][吞吐率：11.99req/s] [内存消耗：3,188.32kb] [文件加载：48]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\codeshow\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\login\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:03:01+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha
+[ info ] 127.0.0.199/captcha [运行时间：0.027977s][吞吐率：35.74req/s] [内存消耗：2,591.59kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codeshow\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:03:17+08:00 ] 127.0.0.199 127.0.0.1 POST /admin/login/doLogin
+[ info ] 127.0.0.199/admin/login/doLogin [运行时间：0.125234s][吞吐率：7.99req/s] [内存消耗：5,573.55kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.199',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '257ce',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\web\codeshow\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021409s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.016872s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE (  `mobile` = '13330613321' ) AND `ta_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] INSERT INTO `ta_log_record` (`remark` , `ip` , `user_id` , `browser` , `os` , `create_time`) VALUES ('登录成功' , '127.0.0.1' , 1 , 'chrome-62' , 'Windows 10' , 1510059797) [ RunTime:0.000860s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:17+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.33638934247148566?=r0.7354917924027864
+[ info ] 127.0.0.199/captcha?=r0.33638934247148566?=r0.7354917924027864 [运行时间：0.042671s][吞吐率：23.44req/s] [内存消耗：3,369.82kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codeshow\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:03:17+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.084756s][吞吐率：11.80req/s] [内存消耗：5,670.88kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001266s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:34+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.057846s][吞吐率：17.29req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010822s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:35+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.047452s][吞吐率：21.07req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:36+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.048883s][吞吐率：20.46req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001376s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:36+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.058048s][吞吐率：17.23req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010582s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:37+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.047619s][吞吐率：21.00req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001083s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:38+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.048743s][吞吐率：20.52req/s] [内存消耗：5,397.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001191s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:03:49+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index?top-search=%E4%BB%AA%E8%A1%A8
+[ info ] 127.0.0.199/admin/index/index?top-search=%E4%BB%AA%E8%A1%A8 [运行时间：0.123645s][吞吐率：8.09req/s] [内存消耗：5,397.96kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'top-search' => '仪表',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011165s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:04:00+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index?top-search=star
+[ info ] 127.0.0.199/admin/index/index?top-search=star [运行时间：0.127890s][吞吐率：7.82req/s] [内存消耗：5,398.13kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/index/index?top-search=%E4%BB%AA%E8%A1%A8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'top-search' => 'star',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010829s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000690s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:04:07+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.199/admin/user/index [运行时间：0.160831s][吞吐率：6.22req/s] [内存消耗：4,286.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/index/index?top-search=star',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web\codeshow\app\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\user\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:04:07+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/user/getlist?offset=0&limit=10 [运行时间：0.084855s][吞吐率：11.78req/s] [内存消耗：5,330.75kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->getList[ D:\web\codeshow\app\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE `ta_user`.`delete_time` IS NULL ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000763s ]
+[ error ] [8]A non well formed numeric value encountered[D:\web\codeshow\app\admin\model\User.php:127]
+---------------------------------------------------------------
+[ 2017-11-07T21:04:08+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/index
+[ info ] 127.0.0.199/admin/authrule/index [运行时间：0.196733s][吞吐率：5.08req/s] [内存消耗：4,286.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->index[ D:\web\codeshow\app\admin\controller\Authrule.php ]
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\authrule\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:04:08+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/getdata?offset=0&limit=5
+[ info ] 127.0.0.199/admin/authrule/getdata?offset=0&limit=5 [运行时间：0.135357s][吞吐率：7.39req/s] [内存消耗：5,314.63kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'getdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '5',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->getData[ D:\web\codeshow\app\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_auth_rule` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_auth_rule` LIMIT 0,5 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:04:08+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/index
+[ info ] 127.0.0.199/admin/role/index [运行时间：0.074974s][吞吐率：13.34req/s] [内存消耗：5,607.02kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->index[ D:\web\codeshow\app\admin\controller\Role.php ]
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\role\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-07T21:04:09+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/role/getlist?offset=0&limit=10 [运行时间：0.050981s][吞吐率：19.62req/s] [内存消耗：5,293.73kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->getList[ D:\web\codeshow\app\admin\controller\Role.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003180s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_role` [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_role` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2017-11-07T21:04:10+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.065941s][吞吐率：15.17req/s] [内存消耗：5,397.31kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codeshow\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=000e0676fculqlqmfghratl3v6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codeshow\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codeshow\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codeshow\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010867s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000419s ]
