@@ -1,0 +1,563 @@
+---------------------------------------------------------------
+[ 2017-11-08T01:02:12+08:00 ] 127.0.0.199 127.0.0.1 GET /admin
+[ info ] code.cn/admin [运行时间：0.326686s][吞吐率：3.06req/s] [内存消耗：3,460.09kb] [文件加载：52]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin/view/\dispatch_jump.tpl [ array (
+  0 => 'set_lang',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:15+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/login/index
+[ info ] code.cn/admin/login/index [运行时间：0.084664s][吞吐率：11.81req/s] [内存消耗：3,457.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\codep\trunk\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\login\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:15+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha
+[ info ] code.cn/captcha [运行时间：0.119036s][吞吐率：8.40req/s] [内存消耗：2,594.25kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:19+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.4094520974153222
+[ info ] code.cn/captcha?=r0.4094520974153222 [运行时间：0.027965s][吞吐率：35.76req/s] [内存消耗：2,594.21kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:23+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.4094520974153222?=r0.7028376083532828
+[ info ] code.cn/captcha?=r0.4094520974153222?=r0.7028376083532828 [运行时间：0.092923s][吞吐率：10.76req/s] [内存消耗：2,594.13kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:25+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977
+[ info ] code.cn/captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977 [运行时间：0.025227s][吞吐率：39.64req/s] [内存消耗：2,594.18kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:29+08:00 ] 127.0.0.199 127.0.0.1 POST /admin/login/doLogin
+[ info ] code.cn/admin/login/doLogin [运行时间：0.024490s][吞吐率：40.83req/s] [内存消耗：3,170.83kb] [文件加载：48]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://code.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'ukeej',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\web\codep\trunk\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:29+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977?=r0.7888309461598983?=r0.0866769668416596
+[ info ] code.cn/captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977?=r0.7888309461598983?=r0.0866769668416596 [运行时间：0.025590s][吞吐率：39.08req/s] [内存消耗：2,594.48kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:32+08:00 ] 127.0.0.199 127.0.0.1 POST /admin/login/doLogin
+[ info ] code.cn/admin/login/doLogin [运行时间：0.502509s][吞吐率：1.99req/s] [内存消耗：5,576.56kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://code.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'spajx',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\web\codep\trunk\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.079022s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.165421s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE (  `mobile` = '13330613321' ) AND `ta_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.025292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.025680s ]
+[ sql ] [ SQL ] INSERT INTO `ta_log_record` (`remark` , `ip` , `user_id` , `browser` , `os` , `create_time`) VALUES ('登录成功' , '127.0.0.1' , 1 , 'chrome-62' , 'Windows 10' , 1510074152) [ RunTime:0.031647s ]
+---------------------------------------------------------------
+[ 2017-11-08T01:02:33+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977?=r0.7888309461598983?=r0.0866769668416596?=r0.035633446796544455?=r0.5915146448267588
+[ info ] code.cn/captcha?=r0.4094520974153222?=r0.7028376083532828?=r0.5429545349017977?=r0.7888309461598983?=r0.0866769668416596?=r0.035633446796544455?=r0.5915146448267588 [运行时间：0.032847s][吞吐率：30.44req/s] [内存消耗：3,372.45kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:02:33+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] code.cn/admin/index/index [运行时间：0.079899s][吞吐率：12.52req/s] [内存消耗：5,674.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://code.cn/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codep\trunk\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2017-11-08T01:07:30+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] code.cn/ [运行时间：0.068219s][吞吐率：14.66req/s] [内存消耗：3,007.04kb] [文件加载：42]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codep\trunk\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:12:07+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] code.cn/ [运行时间：0.119240s][吞吐率：8.39req/s] [内存消耗：3,113.19kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3; pgv_pvi=3450959872; pgv_si=s8893894656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codep\trunk\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\www\controller\Index::View()[D:\web\codep\trunk\app\www\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-11-08T01:12:16+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] code.cn/ [运行时间：0.030912s][吞吐率：32.35req/s] [内存消耗：3,029.02kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3; pgv_pvi=3450959872; pgv_si=s8893894656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codep\trunk\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-08T01:12:33+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] code.cn/ [运行时间：0.033067s][吞吐率：30.24req/s] [内存消耗：3,006.44kb] [文件加载：42]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=qj4pb6p2ntacr7rs619dtt3qc3; pgv_pvi=3450959872; pgv_si=s8893894656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codep\trunk\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
