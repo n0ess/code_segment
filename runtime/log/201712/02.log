@@ -1,0 +1,962 @@
+---------------------------------------------------------------
+[ 2017-12-02T23:16:02+08:00 ] 127.0.0.199 127.0.0.1 GET /
+[ info ] 127.0.0.199/ [运行时间：0.384943s][吞吐率：2.60req/s] [内存消耗：3,005.63kb] [文件加载：42]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ D:\web\codep\trunk\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:16:06+08:00 ] 127.0.0.199 127.0.0.1 GET /Admin
+[ info ] 127.0.0.199/Admin [运行时间：0.120222s][吞吐率：8.32req/s] [内存消耗：3,195.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin/view/\dispatch_jump.tpl [ array (
+  0 => 'set_lang',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:16:09+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/login/index
+[ info ] 127.0.0.199/admin/login/index [运行时间：0.076222s][吞吐率：13.12req/s] [内存消耗：3,190.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/Admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\codep\trunk\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\login\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:16:10+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha
+[ info ] 127.0.0.199/captcha [运行时间：0.105522s][吞吐率：9.48req/s] [内存消耗：2,594.35kb] [文件加载：36]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:27+08:00 ] 127.0.0.199 127.0.0.1 POST /admin/login/doLogin
+[ info ] 127.0.0.199/admin/login/doLogin [运行时间：0.343741s][吞吐率：2.91req/s] [内存消耗：5,576.90kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.199',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'BII8v',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\web\codep\trunk\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045616s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.062926s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE (  `mobile` = '13330613321' ) AND `ta_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.021689s ]
+[ sql ] [ SQL ] INSERT INTO `ta_log_record` (`remark` , `ip` , `user_id` , `browser` , `os` , `create_time`) VALUES ('登录成功' , '127.0.0.1' , 1 , 'chrome-62' , 'Windows 10' , 1512227847) [ RunTime:0.003729s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:27+08:00 ] 127.0.0.199 127.0.0.1 GET /captcha?=r0.7595053468257091?=r0.24339857309418922
+[ info ] 127.0.0.199/captcha?=r0.7595053468257091?=r0.24339857309418922 [运行时间：0.056280s][吞吐率：17.77req/s] [内存消耗：3,372.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\codep\trunk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:27+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.107208s][吞吐率：9.33req/s] [内存消耗：5,400.31kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codep\trunk\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011455s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:32+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.199/admin/user/index [运行时间：0.117858s][吞吐率：8.48req/s] [内存消耗：4,289.23kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\user\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:33+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/user/getlist?offset=0&limit=10 [运行时间：0.174266s][吞吐率：5.74req/s] [内存消耗：5,333.96kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->getList[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE `ta_user`.`delete_time` IS NULL ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000423s ]
+[ error ] [8]A non well formed numeric value encountered[D:\web\codep\trunk\app\admin\model\User.php:127]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:33+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/index
+[ info ] 127.0.0.199/admin/role/index [运行时间：0.071304s][吞吐率：14.02req/s] [内存消耗：5,610.25kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->index[ D:\web\codep\trunk\app\admin\controller\Role.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\role\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:33+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/role/getlist?offset=0&limit=10 [运行时间：0.063037s][吞吐率：15.86req/s] [内存消耗：5,296.84kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->getList[ D:\web\codep\trunk\app\admin\controller\Role.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001004s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_role` [ RunTime:0.002463s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_role` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:33+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/index
+[ info ] 127.0.0.199/admin/authrule/index [运行时间：0.061662s][吞吐率：16.22req/s] [内存消耗：4,289.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->index[ D:\web\codep\trunk\app\admin\controller\Authrule.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\authrule\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:34+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/getdata?offset=0&limit=5
+[ info ] 127.0.0.199/admin/authrule/getdata?offset=0&limit=5 [运行时间：0.140121s][吞吐率：7.14req/s] [内存消耗：5,317.50kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'getdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '5',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->getData[ D:\web\codep\trunk\app\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011267s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_auth_rule` [ RunTime:0.068295s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_auth_rule` LIMIT 0,5 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:34+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.199/admin/user/index [运行时间：0.048787s][吞吐率：20.50req/s] [内存消耗：4,015.35kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\user\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:35+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/user/getlist?offset=0&limit=10 [运行时间：0.077876s][吞吐率：12.84req/s] [内存消耗：5,333.88kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->getList[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010703s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE `ta_user`.`delete_time` IS NULL ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000540s ]
+[ error ] [8]A non well formed numeric value encountered[D:\web\codep\trunk\app\admin\model\User.php:127]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:35+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.076239s][吞吐率：13.12req/s] [内存消耗：5,400.37kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codep\trunk\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010730s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:37+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.199/admin/user/index [运行时间：0.052883s][吞吐率：18.91req/s] [内存消耗：4,015.31kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\user\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:37+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/user/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/user/getlist?offset=0&limit=10 [运行时间：0.065863s][吞吐率：15.18req/s] [内存消耗：5,333.88kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->getList[ D:\web\codep\trunk\app\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE `ta_user`.`delete_time` IS NULL ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000388s ]
+[ error ] [8]A non well formed numeric value encountered[D:\web\codep\trunk\app\admin\model\User.php:127]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:38+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/index
+[ info ] 127.0.0.199/admin/role/index [运行时间：0.062520s][吞吐率：15.99req/s] [内存消耗：5,335.58kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->index[ D:\web\codep\trunk\app\admin\controller\Role.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\role\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:38+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/role/getlist?offset=0&limit=10
+[ info ] 127.0.0.199/admin/role/getlist?offset=0&limit=10 [运行时间：0.070623s][吞吐率：14.16req/s] [内存消耗：5,296.84kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->getList[ D:\web\codep\trunk\app\admin\controller\Role.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010660s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_role` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_role` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:38+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/index
+[ info ] 127.0.0.199/admin/authrule/index [运行时间：0.049282s][吞吐率：20.29req/s] [内存消耗：4,015.20kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/role/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->index[ D:\web\codep\trunk\app\admin\controller\Authrule.php ]
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\authrule\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-02T23:17:39+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/authrule/getdata?offset=0&limit=5
+[ info ] 127.0.0.199/admin/authrule/getdata?offset=0&limit=5 [运行时间：0.068768s][吞吐率：14.54req/s] [内存消耗：5,317.50kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'getdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'application/json',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '5',
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->getData[ D:\web\codep\trunk\app\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010685s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_auth_rule` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_auth_rule` LIMIT 0,5 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-12-02T23:17:39+08:00 ] 127.0.0.199 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.199/admin/index/index [运行时间：0.070469s][吞吐率：14.19req/s] [内存消耗：5,400.39kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\codep\trunk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.199',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://127.0.0.199/admin/authrule/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=b9ov6cju64jpt7610kcmc4jgn5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\web\codep\trunk\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\codep\trunk\app\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\codep\trunk\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010414s ] mysql:host=127.0.0.1;port=3306;dbname=codeshow;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_log_record` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `ta_log_record` [ RunTime:0.000330s ]
